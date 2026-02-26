@@ -110,7 +110,7 @@ export const PORTFOLIO_DATA = {
 
   // 6. PHOTO GALLERY
   gallery: [
-    { id: 1, category: "events", title: "Brahma MC", src: "PASTE_GALLERY_IMAGE_1_URL_HERE" },
+    { id: 1, category: "events", title: "Brahma MC", src: "C:\Users\Dell\Downloads\1000101223.jpg" },
     { id: 2, category: "projects", title: "LUNGUA ", src: "C:\Users\Dell\Downloads\1000101206.jpg" },
     { id: 3, category: "campus", title: "NSS Activities", src: "C:\Users\Dell\OneDrive\Desktop\Jincy\PROJECT_DISHA .jpg" },
     { id: 4, category: "events", title: "Tech Talk", src: "C:\Users\Dell\Downloads\1000101195.png" },
