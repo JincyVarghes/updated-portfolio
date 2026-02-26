@@ -231,7 +231,7 @@ export default function App() {
               viewport={{ once: true }}
               className="group cursor-pointer"
             >
-              <div className="relative aspect-[4/5] overflow-hidden mb-6 bg-white/5 rounded-sm">
+              <div className="relative overflow-hidden mb-6 bg-white/5 rounded-sm h-44 md:h-64">
                 <LazyImage 
                   src={project.image} 
                   alt={project.title}
@@ -244,7 +244,7 @@ export default function App() {
               </div>
               <div className="flex items-start gap-4">
                 <div className="mt-1 opacity-30">
-                  {project.title === "LUNGUA" && <HeartPulse className="w-5 h-5" />}
+                  {project.title === "Events" && <HeartPulse className="w-5 h-5" />}
                   {project.title === "ElderEase" && <Smartphone className="w-5 h-5" />}
                   {project.title === "Shadow Self" && <BrainCircuit className="w-5 h-5" />}
                   {project.title === "Disha" && <Globe className="w-5 h-5" />}
