@@ -17,7 +17,7 @@ export const PORTFOLIO_DATA = {
     tagline: "Growing until it's impossible to overlook.",
     role: "B.Tech CSE | AI, Cybersecurity & App Development",
     // Change this link to your profile picture (e.g., "https://raw.githubusercontent.com/user/repo/main/image.jpg")
-    profileImage: "/jincy-profile.jpg.jpg", 
+    profileImage:"C:\\Users\\Dell\\OneDrive\\Desktop\\Jincy\\jincy-profile.jpg.jpg", 
     // Change this for the background image
     backgroundImage: "PASTE_HERO_BACKGROUND_IMAGE_URL_HERE",
   },
@@ -34,7 +34,7 @@ export const PORTFOLIO_DATA = {
     { 
       title: "LUNGUA", 
       category: "AI / IoT / Healthcare", 
-      image: "PASTE_LUNGUA_PROJECT_IMAGE_URL_HERE",
+      image: "C:\Users\Dell\OneDrive\Pictures\Screenshots\Screenshot 2025-11-06 115439.png",
       video: "", // Add a link to your project video here (e.g., "/lungua-demo.mp4")
       desc: "An AI-integrated smart inhaler system utilizing Self-Supervised Learning (SSL) for personalized health anomaly detection and respiratory monitoring.",
       details: "LUNGUA is an innovative healthcare solution designed to revolutionize respiratory care. By integrating AI with traditional inhalers, it provides real-time feedback and anomaly detection. The system uses Self-Supervised Learning (SSL) to adapt to each user's unique breathing patterns, ensuring highly personalized health insights.",
@@ -43,7 +43,7 @@ export const PORTFOLIO_DATA = {
     { 
       title: "ElderEase", 
       category: "Mobile App / Healthcare", 
-      image: "PASTE_ELDEREASE_PROJECT_IMAGE_URL_HERE",
+      image: "C:\Users\Dell\OneDrive\Pictures\Screenshots\Screenshot 2025-11-06 115411.png",
       desc: "A comprehensive app supporting independent lifestyles for the elderly. Presented at the International Conference ICIMRBE 2025.",
       details: "ElderEase was developed to address the challenges faced by the aging population living independently. The app features medication reminders, emergency alerts, and a simplified interface for social connection. It was recognized for its user-centric design at the ICIMRBE 2025 conference.",
       techStack: ["Flutter", "Firebase", "Google Maps API", "Node.js"]
@@ -51,7 +51,7 @@ export const PORTFOLIO_DATA = {
     { 
       title: "Shadow Self", 
       category: "AI / Mental Health", 
-      image: "PASTE_SHADOW_SELF_PROJECT_IMAGE_URL_HERE",
+      image: "C:\Users\Dell\OneDrive\Pictures\Screenshots\Screenshot 2025-11-06 221528.png",
       desc: "AI-powered self-reflection companion that helps users explore emotions and habits through guided journaling and mood insights.",
       details: "Shadow Self is a mental wellness tool that leverages Natural Language Processing to help users understand their emotional states. Through daily journaling prompts and sentiment analysis, it provides users with a 'mirror' to their subconscious, fostering self-awareness and emotional growth.",
       techStack: ["Python", "OpenAI API", "React", "Tailwind CSS", "MongoDB"]
@@ -59,7 +59,7 @@ export const PORTFOLIO_DATA = {
     { 
       title: "Disha", 
       category: "Education / Social Impact", 
-      image: "PASTE_DISHA_PROJECT_IMAGE_URL_HERE",
+      image: "C:\Users\Dell\OneDrive\Pictures\Screenshots\Screenshot 2025-11-06 221629.png",
       desc: "Project Lead for a teaching platform associated with NSS, focusing on digital literacy for students in remote villages.",
       details: "As the Project Lead for Disha, I coordinated a team of volunteers to bring digital education to underserved rural areas. We developed a curriculum focused on basic computer skills and internet safety, impacting over 200 students across multiple villages.",
       techStack: ["Community Leadership", "Curriculum Design", "Digital Literacy", "Public Speaking"]
@@ -111,11 +111,12 @@ export const PORTFOLIO_DATA = {
   // 6. PHOTO GALLERY
   gallery: [
     { id: 1, category: "events", title: "Brahma MC", src: "PASTE_GALLERY_IMAGE_1_URL_HERE" },
-    { id: 2, category: "projects", title: "LUNGUA Demo", src: "PASTE_GALLERY_IMAGE_2_URL_HERE" },
-    { id: 3, category: "campus", title: "NSS Activities", src: "PASTE_GALLERY_IMAGE_3_URL_HERE" },
-    { id: 4, category: "events", title: "Tech Talk", src: "PASTE_GALLERY_IMAGE_4_URL_HERE" },
-    { id: 5, category: "projects", title: "ElderEase Presentation", src: "PASTE_GALLERY_IMAGE_5_URL_HERE" },
-    { id: 6, category: "campus", title: "Innovation Lab", src: "PASTE_GALLERY_IMAGE_6_URL_HERE" },
+    { id: 2, category: "projects", title: "LUNGUA ", src: "C:\Users\Dell\Downloads\1000101206.jpg" },
+    { id: 3, category: "campus", title: "NSS Activities", src: "C:\Users\Dell\OneDrive\Desktop\Jincy\PROJECT_DISHA .jpg" },
+    { id: 4, category: "events", title: "Tech Talk", src: "C:\Users\Dell\Downloads\1000101195.png" },
+    { id: 5, category: "projects", title: " Presentation", src: "C:\Users\Dell\Downloads\1000101197.png" },
+    { id: 6, category: "campus", title: "ICT", src: "C:\Users\Dell\Downloads\1000101199.png" },
+    { id: 7, category: "events", title: "Oratory Competition", src: "C:\Users\Dell\Downloads\1000101193.png" },
   ],
 
   // 5. SOCIAL LINKS
